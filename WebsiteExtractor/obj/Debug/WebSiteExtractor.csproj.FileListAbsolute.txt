@@ -1,0 +1,33 @@
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\bin\Debug\WebSiteExtractor.exe.config
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\bin\Debug\WebSiteExtractor.exe
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\bin\Debug\WebSiteExtractor.pdb
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.csprojResolveAssemblyReference.cache
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Debug\MainWindow.g.cs
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Debug\App.g.cs
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor_MarkupCompile.cache
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor_MarkupCompile.lref
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Debug\MainWindow.baml
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.g.resources
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.Properties.Resources.resources
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.csproj.GenerateResource.Cache
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.exe
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.pdb
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\bin\Debug\WebSiteExtractor.exe
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\bin\Debug\WebSiteExtractor.exe.config
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\MainWindow.g.cs
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\App.g.cs
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor_MarkupCompile.cache
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor_MarkupCompile.lref
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\MainWindow.baml
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.g.resources
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.Properties.Resources.resources
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.csproj.GenerateResource.Cache
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.exe
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.pdb
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\bin\Debug\WebSiteExtractor.pdb
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.csprojResolveAssemblyReference.cache
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebSiteExtractor.csproj.ResolveComReference.cache
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\bin\Debug\WebsiteExtractor.exe.manifest
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\bin\Debug\WebsiteExtractor.application
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebsiteExtractor.exe.manifest
+C:\Users\Arkady\Documents\VisualStudioProjects\WebSiteExtractor\WebSiteExtractor\obj\Debug\WebsiteExtractor.application

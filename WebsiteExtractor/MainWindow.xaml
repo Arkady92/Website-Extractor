@@ -1,0 +1,87 @@
+﻿<Window x:Class="WebSiteExtractor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WebSiteExtractor"
+        mc:Ignorable="d"
+        Title="Websites Extractor" Height="675" Width="1200" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Grid.Column="0" Grid.Row="0" BorderThickness="1" BorderBrush="Black">
+            <RichTextBox Name="InputText"></RichTextBox>
+        </Border>
+        <Border Grid.Column="1" Grid.Row="0" BorderThickness="1" BorderBrush="Black">
+            <RichTextBox Name="OutputText"></RichTextBox>
+        </Border>
+        <Grid Grid.Column="0" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="4*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2.4*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Border Grid.Column="0" BorderThickness="1" BorderBrush="Black">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.3*"></ColumnDefinition>
+                            <ColumnDefinition Width="2.8*"></ColumnDefinition>
+                            <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0" Name="ExtractWebsitesButton" Width="80" Height="40" Margin="10" Click="ExtractWebsitesButton_Click">
+                            <TextBlock TextAlignment="Center">Extract<LineBreak/>Websites</TextBlock>
+                        </Button>
+                        <Grid Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <RadioButton Grid.Row="0" Margin="5" Name="ExternalBrowserButton" Content="Use External Browser" VerticalAlignment="Center" Click="ExternalBrowserButton_Click"></RadioButton>
+                            <RadioButton Grid.Row="1" Margin="5" Name="InternalBrowserButton" Content="Use Internal Browser" VerticalAlignment="Center" Click="InternalBrowserButton_Click" IsChecked="True"></RadioButton>
+                        </Grid>
+                        <Button Grid.Column="2" Name="ShowAllButton" IsEnabled="False" Width="50" Height="40" Margin="10" Click="ShowAllButton_Click">
+                            <TextBlock TextAlignment="Center">Show<LineBreak/>All</TextBlock>
+                        </Button>
+                    </Grid>
+                </Border>
+                <Border Grid.Column="1" BorderThickness="1" BorderBrush="Black">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition Height="3*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Label Name="MusicPlayerLabel" Grid.Row="0" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Margin="0" Padding="0" Content="Music Player"></Label>
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition Width="2*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Column="0" Name="LoadMusicButton" Content="Load" Width="40" Height="30" Margin="5" Click="LoadMusicButton_Click"></Button>
+                            <Button Grid.Column="1" Name="PlayMusicButton" Content="Play" Width="40" Height="30" Margin="5" Click="PlayMusicButton_Click" IsEnabled="False"></Button>
+                            <Button Grid.Column="2" Name="StopMusicButton" Content="Stop" Width="40" Height="30" Margin="5" Click="StopMusicButton_Click" IsEnabled="False"></Button>
+                            <Slider Grid.Column="3" VerticalAlignment="Center" Name="VolumeSlider" Margin="5" Value="{Binding Path=VolumeLevel}" Minimum="0" Maximum="1"></Slider>
+                        </Grid>
+                    </Grid>
+                </Border>
+            </Grid>
+            <Border Grid.Row="1" BorderThickness="1" BorderBrush="Black">
+                <ListView Name="WebsitesViewer" Margin="5" SelectionChanged="WebsitesViewer_SelectionChanged" SelectionMode="Single"></ListView>
+            </Border>
+        </Grid>
+        <Border Grid.Column="1" Grid.Row="1" BorderThickness="1" BorderBrush="Black">
+            <WebBrowser Name="Browser" LoadCompleted="Browser_LoadCompleted"></WebBrowser>
+        </Border>
+    </Grid>
+</Window>

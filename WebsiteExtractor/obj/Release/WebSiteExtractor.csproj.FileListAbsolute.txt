@@ -1,0 +1,33 @@
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\bin\Release\WebSiteExtractor.exe.config
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\bin\Release\WebSiteExtractor.exe
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\bin\Release\WebSiteExtractor.pdb
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Release\MainWindow.g.cs
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Release\App.g.cs
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Release\WebSiteExtractor_MarkupCompile.cache
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Release\WebSiteExtractor_MarkupCompile.lref
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Release\MainWindow.baml
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Release\WebSiteExtractor.g.resources
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Release\WebSiteExtractor.Properties.Resources.resources
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Release\WebSiteExtractor.csproj.GenerateResource.Cache
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Release\WebSiteExtractor.exe
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Release\WebSiteExtractor.pdb
+c:\users\arkady\documents\visual studio 2015\Projects\WebSiteExtractor\WebSiteExtractor\obj\Release\WebSiteExtractor.csprojResolveAssemblyReference.cache
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\bin\Release\WebsiteExtractor.exe.config
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\bin\Release\WebsiteExtractor.exe.manifest
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\bin\Release\WebsiteExtractor.application
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\bin\Release\WebsiteExtractor.exe
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\bin\Release\WebsiteExtractor.pdb
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\WebsiteExtractor.csprojResolveAssemblyReference.cache
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\WebsiteExtractor.csproj.ResolveComReference.cache
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\MainWindow.g.cs
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\App.g.cs
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\WebsiteExtractor_MarkupCompile.cache
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\WebsiteExtractor_MarkupCompile.lref
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\MainWindow.baml
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\WebsiteExtractor.g.resources
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\WebsiteExtractor.Properties.Resources.resources
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\WebsiteExtractor.csproj.GenerateResource.Cache
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\WebsiteExtractor.exe.manifest
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\WebsiteExtractor.application
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\WebsiteExtractor.exe
+C:\Users\Arkady\Documents\VisualStudioProjects\WebsiteExtractor\WebsiteExtractor\obj\Release\WebsiteExtractor.pdb
