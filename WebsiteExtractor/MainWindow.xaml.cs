@@ -16,7 +16,7 @@ namespace WebSiteExtractor
         private MusicPlayer musicPlayer;
         private Website actualWebsite;
         private BrowserType actualBrowserType;
-        private const BrowserType defaultBrowserType = BrowserType.Internal;
+        private const BrowserType defaultBrowserType = BrowserType.External;
 
         private const string InputDefaultText = "Paste Text Here ...";
         private const string OutputDefaultText = "BBCode Result For TS3 Description";
@@ -81,15 +81,16 @@ namespace WebSiteExtractor
 
             Browser.Navigated += new NavigatedEventHandler(Browser_Navigated);
             SetupWindow();
+            InputText.Focus();
         }
 
         private void SetupWindow()
         {
-            if (actualWebsite != defaultWebsite)
-            {
-                actualWebsite = defaultWebsite;
+            actualWebsite = defaultWebsite;
+            if (actualBrowserType == BrowserType.Internal)
                 Browser.Navigate(defaultWebsite.Url);
-            }
+            else
+                Browser.Navigate("about:blank");
             if (WebsitesViewer.SelectedItems != null)
                 WebsitesViewer.SelectedItem = null;
         }
@@ -138,7 +139,7 @@ namespace WebSiteExtractor
             musicPlayer.StopMusic();
             PlayMusicButton.Content = "Play";
             musicPlayer.LoadMusic();
-            if(musicPlayer.ActualMusicFileName != null && musicPlayer.ActualMusicFileName != "")
+            if (musicPlayer.ActualMusicFileName != null && musicPlayer.ActualMusicFileName != "")
             {
                 PlayMusicButton.IsEnabled = true;
                 StopMusicButton.IsEnabled = true;
@@ -175,9 +176,6 @@ namespace WebSiteExtractor
                         break;
                     case WebsiteType.gag:
                         htmlDoc.parentWindow.scrollBy(30, 200);
-                        break;
-                    case WebsiteType.google:
-                        htmlDoc.parentWindow.scrollBy(90, 80);
                         break;
                     default:
                         break;

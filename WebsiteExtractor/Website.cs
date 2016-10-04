@@ -30,7 +30,8 @@
         kwejk,
         myepicwall,
         other,
-        google
+        google,
+        mistrzowie
     }
 
     public enum BrowserType

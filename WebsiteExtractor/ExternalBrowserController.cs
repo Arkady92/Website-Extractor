@@ -12,7 +12,10 @@ namespace WebSiteExtractor
             if (!BrowserOpened)
             {
                 if (Process.GetProcesses().Any(p => p.ProcessName.Contains("firefox")))
+                {
                     BrowserOpened = true;
+                    Process.Start("firefox.exe", address);
+                }
                 else
                 {
                     Process.Start("firefox.exe", address);

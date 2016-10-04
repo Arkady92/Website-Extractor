@@ -64,16 +64,22 @@ namespace WebSiteExtractor
             {
                 case WebsiteType.jbzd:
                     if(url.Contains("img.jbzd"))
-                        return new Website(null, url, WebsiteType.other);
+                        return new Website(websiteType.ToString(), url, WebsiteType.other);
                     return new Website(ExtractRegualTitle(url), url, websiteType);
                 case WebsiteType.gag:
                     return new Website(contentExtractor.Extract9GagTitle(url), url, websiteType);
                 case WebsiteType.youtube:
                     return new Website(contentExtractor.ExtractYoutubeTitle(url), url, websiteType);
                 case WebsiteType.kwejk:
+                    if (url.Contains("i1.kwejk"))
+                        return new Website(websiteType.ToString(), url, WebsiteType.other);
+                    return new Website(ExtractRegualTitle(url), url, websiteType);
+                case WebsiteType.mistrzowie:
+                    if (url.Contains("uimages"))
+                        return new Website(websiteType.ToString(), url, WebsiteType.other);
                     return new Website(ExtractRegualTitle(url), url, websiteType);
                 case WebsiteType.myepicwall:
-                    return new Website(null, url, websiteType);
+                    return new Website(websiteType.ToString(), url, websiteType);
                 case WebsiteType.other:
                     return new Website(null, url, websiteType);
                 default:

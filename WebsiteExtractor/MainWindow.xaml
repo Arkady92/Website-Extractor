@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WebSiteExtractor"
         mc:Ignorable="d"
-        Title="Websites Extractor" Height="675" Width="1200" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="Websites Extractor" Height="675" Width="1200" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -46,8 +46,8 @@
                                 <RowDefinition></RowDefinition>
                                 <RowDefinition></RowDefinition>
                             </Grid.RowDefinitions>
-                            <RadioButton Grid.Row="0" Margin="5" Name="ExternalBrowserButton" Content="Use External Browser" VerticalAlignment="Center" Click="ExternalBrowserButton_Click"></RadioButton>
-                            <RadioButton Grid.Row="1" Margin="5" Name="InternalBrowserButton" Content="Use Internal Browser" VerticalAlignment="Center" Click="InternalBrowserButton_Click" IsChecked="True"></RadioButton>
+                            <RadioButton Grid.Row="0" Margin="5" Name="ExternalBrowserButton" Content="Use External Browser" VerticalAlignment="Center" Click="ExternalBrowserButton_Click" IsChecked="True"></RadioButton>
+                            <RadioButton Grid.Row="1" Margin="5" Name="InternalBrowserButton" Content="Use Internal Browser" VerticalAlignment="Center" Click="InternalBrowserButton_Click"></RadioButton>
                         </Grid>
                         <Button Grid.Column="2" Name="ShowAllButton" IsEnabled="False" Width="50" Height="40" Margin="10" Click="ShowAllButton_Click">
                             <TextBlock TextAlignment="Center">Show<LineBreak/>All</TextBlock>
